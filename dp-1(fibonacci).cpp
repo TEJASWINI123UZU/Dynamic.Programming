@@ -3,7 +3,7 @@
 using namespace std;
 //memorization
 ll ara[1000];
-int fib(ll n)
+ll fib(ll n)
 {
     if (n<=2)return 1;
     if(ara[n]!=0)return ara[n];
